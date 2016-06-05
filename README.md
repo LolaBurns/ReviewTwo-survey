@@ -13,7 +13,7 @@ _This simple webpage is a project to learn CSS, HTML, and Bootstrap coding. The 
 * _Clone this repository._
 * _Open the index.html page in the browser of your choice._
 
-## GitHub Pages links
+## GitHub Pages Link
 
 _xxx_
 
