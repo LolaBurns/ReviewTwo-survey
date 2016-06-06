@@ -12,60 +12,63 @@
       <h1>A Survey</h1>
       <h3>Survey Instructions</h3>
       <div id="questions">
+        <form id="users">
+          <div class="question">
+            <div class="form-group">
+              <label for="field">Text Question</label>
+              <input id="field" class="form-control" type="text">
+            </div>
+          </div>
+          <div class="question">
+            <p>Selection Question</p>
+            <select class="form-control" id="selectBoxes">
+              <option>Selection 1</option>
+              <option>Selection 2</option>
+              <option>Selection 3</option>
+              <option>Selection 4</option>
+            </select>
+          </div>
+          <div class="question">
+            <p>Radio Question</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="radioField" value="One">
+                Radio 1
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                  <input type="radio" name="radioField" value="Two">
+                  Radio 2
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="radioField" value="Three">
+                Radio 3
+              </label>
+            </div>
+          </div>
+            <div class="question">
+              <div class="form-group">
+                <label for="datePicker">Date:</label>
+                <input id="datePicker" class="form-control" type="date">
+              </div>
+            </div>
+            <div class="question">
+              <div class="form-group">
+                <label for="colorPicker">Color Selector</label>
+                <input id="colorPicker" class="form-control" type="color">
+              </div>
+            </div>
+            <button type="submit" class="btn">
+              Submit
+            </button>
+        </form>
       </div>
-      <form>
-        <div class="question">
-          <div class="form-group">
-            <label for="textField">Text Question</label>
-            <input id="textField" class="form-control" type="text">
-          </div>
-        </div>
-        <div class="question">
-          <p>Selection Question</p>
-          <select class="form-control" id="selectBoxes">
-            <option>Selection 1</option>
-            <option>Selection 2</option>
-            <option>Selection 3</option>
-            <option>Selection 4</option>
-          </select>
-        </div>
-        <div class="question">
-          <p>Radio Question</p>
-          <div class="radio">
-            <label>
-              <input type="radio" name="radioField" value="One">
-              Radio 1
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-                <input type="radio" name="radioField" value="Two">
-                Radio 2
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="radioField" value="Three">
-              Radio 3
-            </label>
-          </div>
-        </div>
-        <div class="question">
-          <div class="form-group">
-            <label for="datePicker">Date:</label>
-            <input id="datePicker" class="form-control" type="date">
-          </div>
-        </div>
-        <div class="question">
-          <div class="form-group">
-            <label for="colorPicker">Color Selector</label>
-            <input id="colorPicker" class="form-control" type="color">
-          </div>
-        </div>
-        <button type="submit" class="btn-warning">
-          Submit
-        </button>
-      </form>
+      <div id="results">
+        <p><span class="field"></span></p>
+      </div>
     </div>
   </body>
-  </html>
+</html>
