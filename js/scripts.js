@@ -6,5 +6,6 @@ $(document).ready(function() {
     $(".field").text(fieldInput);
 
     $("#results").show();
+    $("#questions").hide();
   });
 });
