@@ -1,3 +1,7 @@
 #results {
   display: none;
 }
+
+.question {
+  margin: 3rem;
+}
