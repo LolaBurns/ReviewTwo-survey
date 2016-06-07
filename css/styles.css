@@ -3,10 +3,22 @@
 }
 
 .question {
+  padding: .75rem;
   margin: 3rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
 }
 
 .container {
   background: url(https://static.pexels.com/photos/34020/pexels-photo.jpg) repeat;
   background-size: cover;
 }
+
+h1, h3 {
+  color: #fff;
+  font-weight: bolder;
+}
+
+p {
+  font-weight: bold;
+};
