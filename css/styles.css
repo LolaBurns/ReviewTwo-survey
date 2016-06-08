@@ -5,7 +5,7 @@
 .question {
   padding: .75rem;
   margin: 3rem;
-    background-color: #fff;
+    background-color: #e8d8c3;
     border-radius: 1.5rem;
 }
 
@@ -17,6 +17,9 @@
 h1, h3 {
   color: #fff;
   font-weight: bolder;
+  text-align: center;
+  text-shadow: .5rem .5rem .5rem #222;
+}
 }
 
 p {
