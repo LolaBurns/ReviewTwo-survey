@@ -14,14 +14,13 @@
   background-size: cover;
 }
 
-h1, h3 {
+h1, h4 {
   color: #fff;
   font-weight: bolder;
   text-align: center;
   text-shadow: .5rem .5rem .5rem #222;
 }
-}
 
 p {
   font-weight: bold;
-};
+}
