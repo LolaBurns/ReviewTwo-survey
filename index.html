@@ -12,49 +12,58 @@
       <h1>Dream Vacation Matchmaker</h1>
       <h4>Answer the following questions to be matched with your dream vacation destination.</h4>
       <div id="questions">
-        <form id="users">
+        <form id="userData">
           <div class="question">
             <div class="form-group">
-              <label for="field">Text Question</label>
+              <label for="userName">First, please introduce yourself by entering your name:</label>
               <input id="field" class="form-control" type="text">
             </div>
           </div>
           <div class="question">
-            <p>What kind of weather do you like to vacation in?</p>
-            <select class="form-control" id="selectBoxes">
-              <option>Tropical</option>
-              <option>Temperate</option>
-              <option>Tundra</option>
-              <option>Depends on my mood</option>
+            <p>What kind of weather would you like to vacation in?</p>
+            <select class="form-control" id="weather">
+              <option value="1">Tropical</option>
+              <option value="3">Temperate</option>
+              <option value="4">Tundra</option>
+              <option value="2">Depends on my mood</option>
             </select>
           </div>
           <div class="question">
             <p>What activities are you interested in doing on your vacation?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="radioField" value="One">
+                <input type="radio" name="activity" value="4">
                 Snow Sports
               </label>
             </div>
             <div class="radio">
               <label>
-                  <input type="radio" name="radioField" value="Two">
-                  Radio 2
+                  <input type="radio" name="activity" value="1">
+                  Lazing on the Beach
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="radioField" value="Three">
-                Radio 3
+                <input type="radio" name="activity" value="3">
+                Hiking
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="activity" value="2">
+                I'm open-minded...
               </label>
             </div>
           </div>
-            <div class="question">
-              <div class="form-group">
-                <label for="datePicker">Date:</label>
-                <input id="datePicker" class="form-control" type="date">
-              </div>
-            </div>
+          <div class="question">
+            <p>Which of the following is most important to you when you travel?</p>
+            <select class="form-control" id="priority">
+              <option value="1">x</option>
+              <option value="3">Temperate</option>
+              <option value="4">Tundra</option>
+              <option value="2">Depends on my mood</option>
+            </select>
+          </div>
             <div class="question">
               <div class="form-group">
                 <label for="colorPicker">Color Selector</label>
@@ -62,7 +71,7 @@
               </div>
             </div>
             <button type="submit" class="btn-warning">
-              Submit
+              See your perfect vacation!
             </button>
         </form>
       </div>

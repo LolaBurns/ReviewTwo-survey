@@ -3,7 +3,7 @@
 }
 
 .question {
-  padding: .75rem;
+  padding: 1.5rem;
   margin: 3rem;
     background-color: #e8d8c3;
     border-radius: 1.5rem;
@@ -23,4 +23,14 @@ h1, h4 {
 
 p {
   font-weight: bold;
+}
+
+.btn-warning {
+  padding: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 10rem;
+  border-radius: 1rem;
+  width: 20rem;
+  color: #000;
+  font-weight: bolder;
 }

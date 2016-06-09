@@ -1,12 +1,12 @@
 # _Lauren Burnett Practice Survey_
 
-#### _Javascipt Form Practice, 06.11.2016_
+#### _Javascipt Form Practice: Travel Destinations, 06.11.2016_
 
 #### By _**Lauren Burnett**_
 
 ## Description
 
-_This simple webpage is a project to learn CSS, HTML, and Bootstrap coding. The page gives a little information about myself and links to some of the projects I've created as I'm learning more coding languages and skills._
+_This simple webpage is a project to learn basic jQuery and Javascript coding. The page allows users to answer several questions in a form and get a recommendation for a vacation destination best fitting their answers._
 
 ## Setup/Installation Requirements
 
