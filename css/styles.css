@@ -1,3 +1,7 @@
+body {
+background-color: #000;
+}
+
 #results {
   display: none;
 }
@@ -12,6 +16,12 @@
 .container {
   background: url(https://static.pexels.com/photos/34020/pexels-photo.jpg) repeat;
   background-size: cover;
+}
+
+#results {
+  color: #fff;
+  text-align: center;
+  background-color: #000;
 }
 
 h1, h4 {
@@ -30,7 +40,7 @@ p {
   margin-left: 3rem;
   margin-bottom: 10rem;
   border-radius: 1rem;
-  width: 20rem;
+  width: 25rem;
   color: #000;
   font-weight: bolder;
 }

@@ -1,11 +1,11 @@
 $(document).ready(function() {
-  $("#users").submit(function(event)  {
+  $("#userData").submit(function(event)  {
     event.preventDefault();
-    var fieldInput = $("input#field").val();
+    var fieldInput = $("input#userName").val();
 
-    $(".field").text(fieldInput);
+    $(".userName").text(fieldInput);
 
     $("#results").show();
-    $("#questions").hide();
+    $("#userData").hide();
   });
 });
