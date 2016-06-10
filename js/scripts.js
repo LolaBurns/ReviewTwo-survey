@@ -11,6 +11,8 @@ $(document).ready(function() {
     if ((results === "aaaa") || (results === "abaa") || (results === "aaba") || (results === "aaab") || (results === "baaa") || (results === "caaa") || (results === "acaa") || (results === "aaca") || (results === "aaac")) {
       results = ("The Bahamas");
     } else if ((results === "cccc") || (results === "cacc") || (results === "ccac") || (results === "ccca") || (results === "cbcc") || (results === "ccbc") || (results === "cccb") ) { results = ("Alaska");
+    } else {
+      results = ("The American Northwest");
     }
 
     $(".userName").text(userNameInput);

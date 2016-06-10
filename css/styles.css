@@ -46,3 +46,8 @@ p {
   color: #000;
   font-weight: bolder;
 }
+
+#destination {
+  color: red;
+  font-weight: bolder;
+}
