@@ -48,7 +48,7 @@ p {
   font-weight: bold;
 }
 
-#destination {
+.resultSpot {
   color: red;
-  font-weight: bold;
+  font-weight: bolder;
 }
