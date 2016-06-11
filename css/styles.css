@@ -1,26 +1,5 @@
 body {
-background-color: #000;
-}
-
-.question {
-  padding: 1.5rem;
-  margin: 3rem;
-  background-color: #e8d8c3;
-  border-radius: 1.5rem;
-}
-
-.container {
-  background: url(https://static.pexels.com/photos/34020/pexels-photo.jpg) repeat;
-  background-size: cover;
-}
-
-#results {
-  display: none;
-  color: #fff;
-  text-align: center;
   background-color: #000;
-  margin: 5rem;
-  padding: 2rem;
 }
 
 h1, h4 {
@@ -34,6 +13,18 @@ p {
   font-weight: bold;
 }
 
+.container {
+  background: url(https://static.pexels.com/photos/34020/pexels-photo.jpg) repeat;
+  background-size: cover;
+}
+
+.question {
+  padding: 1.5rem;
+  margin: 3rem;
+  background-color: #e8d8c3;
+  border-radius: 1.5rem;
+}
+
 .btn-warning {
   padding: 1rem;
   margin-left: 3rem;
@@ -44,7 +35,20 @@ p {
   font-weight: bolder;
 }
 
+#results {
+  display: none;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  margin: 5rem;
+  padding: 2rem;
+}
+
+.userName {
+  font-weight: bold;
+}
+
 #destination {
   color: red;
-  font-weight: bolder;
+  font-weight: bold;
 }
