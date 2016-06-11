@@ -1,6 +1,6 @@
 # _Lauren Burnett Practice Survey_
 
-#### _Javascipt Form Practice: Travel Destinations, 06.11.2016_
+#### _Javascipt Form Practice: Vacation Destinations Quiz, 06.11.2016_
 
 #### By _**Lauren Burnett**_
 
