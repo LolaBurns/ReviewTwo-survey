@@ -2,10 +2,6 @@ body {
 background-color: #000;
 }
 
-#results {
-  display: none;
-}
-
 .question {
   padding: 1.5rem;
   margin: 3rem;
@@ -19,6 +15,7 @@ background-color: #000;
 }
 
 #results {
+  display: none;
   color: #fff;
   text-align: center;
   background-color: #000;
