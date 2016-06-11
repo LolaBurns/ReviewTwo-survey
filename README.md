@@ -15,7 +15,7 @@ _This simple webpage is a project to learn basic jQuery and Javascript coding. T
 
 ## GitHub Pages Link
 
-_xxx_
+_http://lolaburns.github.io/ReviewTwo-survey/_
 
 ## Known Bugs
 
