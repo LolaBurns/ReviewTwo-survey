@@ -30,9 +30,10 @@ p {
   margin-left: 3rem;
   margin-bottom: 10rem;
   border-radius: 1rem;
-  width: 25rem;
+  width: 28rem;
   color: #000;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 
 #results {
